@@ -1,37 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://earth.google.com/kml/2.1">
-<!-- Data derived from:
-       Ed Knittel - || tastypopsicle.com
-       Feel free to use this file for your own purposes.
-       Just leave the comments and credits when doing so.
--->
   <Document>
-    <name>Polar Orbit 2 Metop B</name>
-    <description>Polar Orbit 2 Metop B</description>
-
-
-    <Style id="orangeLine">
-      <LineStyle>
-        <color>ff00ccff</color>
-        <width>4</width>
-      </LineStyle>
-    </Style>
-    <Style id="brownLine">
-      <LineStyle>
-        <color>ff66a1cc</color>
-        <width>4</width>
-      </LineStyle>
-    </Style>
+    <name>Polar Orbit 1</name>
+    <description>Polar Orbit 1</description>
     <Style id="blueLine">
       <LineStyle>
         <color>ff97572b</color>
         <width>4</width>
       </LineStyle>
     </Style>
-
-
     <Placemark>
-	  <name>Metop B</name>
+	  <name>Polar Orbit 1</name>
       <styleUrl>#blueLine</styleUrl>
       <LineString>
         <altitudeMode>relative</altitudeMode>
@@ -131,7 +110,6 @@
 			-178.374558	,	-78.179446	,	849467.174
 		</coordinates>
      </LineString>
-    </Placemark>	
-
+    </Placemark>
   </Document>
 </kml>

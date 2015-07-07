@@ -1,33 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://earth.google.com/kml/2.1">
-
   <Document>
-    <name>Polar Orbit 2 Metop B</name>
-    <description>Polar Orbit 2 Metop B</description>
-
-
-    <Style id="orangeLine">
-      <LineStyle>
-        <color>ff00ccff</color>
-        <width>4</width>
-      </LineStyle>
-    </Style>
-    <Style id="brownLine">
-      <LineStyle>
-        <color>ff66a1cc</color>
-        <width>4</width>
-      </LineStyle>
-    </Style>
+    <name>Polar Orbit 2</name>
+    <description>Polar Orbit 2</description>
     <Style id="blueLine">
       <LineStyle>
         <color>ff97572b</color>
         <width>4</width>
       </LineStyle>
     </Style>
-
-
     <Placemark>
-	  <name>Metop B</name>
+	  <name>Polar Orbit 2</name>
       <styleUrl>#blueLine</styleUrl>
       <LineString>
         <altitudeMode>relative</altitudeMode>
@@ -42,7 +25,6 @@
 			144.555715	,	-52.803071	,	842105.911
 		</coordinates>
      </LineString>
-    </Placemark>	
-
+    </Placemark>
   </Document>
 </kml>
